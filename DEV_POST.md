@@ -6,7 +6,7 @@ tags: devchallenge, gemmachallenge, gemma
 
 *This is a submission for the [Gemma 4 Challenge: Build with Gemma 4](https://dev.to/challenges/google-gemma-2026-05-06).*
 
-![Local Gemma 4 Content Radar hero](https://raw.githubusercontent.com/kax168/gemma4-local-content-radar/main/assets/hero.png?v=1)
+![Local Gemma 4 Content Radar hero](https://raw.githubusercontent.com/kax168/gemma4-local-content-radar/main/assets/hero.png?v=2)
 
 ## What I Built
 
