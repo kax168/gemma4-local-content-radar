@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Local Gemma 4 Content Radar</title>
+  <desc id="desc">A stylized dashboard showing local Gemma 4 ranking content signals into a publishing decision report.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061923"/>
+      <stop offset="0.48" stop-color="#0b2d33"/>
+      <stop offset="1" stop-color="#113b30"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9af7d4"/>
+      <stop offset="1" stop-color="#45d6f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.18">
+    <path d="M-80 740 C220 520 410 820 760 600 C1030 430 1220 620 1690 350" fill="none" stroke="#7df5d4" stroke-width="120"/>
+    <path d="M60 140 H1540 M60 260 H1540 M60 380 H1540 M60 500 H1540 M60 620 H1540 M60 740 H1540" stroke="#8fe8de" stroke-width="2"/>
+    <path d="M180 60 V840 M360 60 V840 M540 60 V840 M720 60 V840 M900 60 V840 M1080 60 V840 M1260 60 V840 M1440 60 V840" stroke="#8fe8de" stroke-width="2"/>
+  </g>
+  <rect x="132" y="120" width="1336" height="660" rx="42" fill="#071926" stroke="#2ee6ce" stroke-opacity="0.36" stroke-width="3" filter="url(#shadow)"/>
+  <text x="190" y="218" fill="#8ff7e5" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="7">GEMMA 4 CHALLENGE</text>
+  <text x="190" y="294" fill="#f6fff9" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="82" font-weight="900">Local Content Radar</text>
+  <text x="190" y="350" fill="#bfe2df" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="31">Private long-context editorial decisions, powered by local Gemma 4 E4B.</text>
+  <g transform="translate(190 420)">
+    <rect width="330" height="210" rx="28" fill="#0b2635" stroke="#26e6d1" stroke-opacity="0.45"/>
+    <circle cx="48" cy="54" r="20" fill="#49dbe7" opacity="0.55"/>
+    <text x="86" y="64" fill="#ffffff" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="900">Signals</text>
+    <text x="48" y="122" fill="#bfe2df" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="24">trends, notes, claims,</text>
+    <text x="48" y="158" fill="#bfe2df" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="24">drafts, source snippets</text>
+  </g>
+  <path d="M550 525 H710" stroke="url(#mint)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M704 503 L746 525 L704 547 Z" fill="#82f4dd"/>
+  <g transform="translate(770 420)">
+    <rect width="330" height="210" rx="28" fill="#11243a" stroke="#26e6d1" stroke-opacity="0.58"/>
+    <circle cx="48" cy="54" r="20" fill="#9af7d4"/>
+    <text x="86" y="64" fill="#ffffff" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="30" font-weight="900">Gemma 4 E4B</text>
+    <text x="48" y="122" fill="#bfe2df" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="24">local reasoning over</text>
+    <text x="48" y="158" fill="#bfe2df" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="24">a 128K context window</text>
+  </g>
+  <path d="M1130 525 H1290" stroke="url(#mint)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1284 503 L1326 525 L1284 547 Z" fill="#82f4dd"/>
+  <g transform="translate(850 640)">
+    <rect width="500" height="78" rx="39" fill="#071926" stroke="#2ee6ce" stroke-opacity="0.5"/>
+    <text x="44" y="50" fill="#9af7d4" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="25" font-weight="800">JSON + Markdown report</text>
+    <text x="332" y="50" fill="#d7fff8" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="25">rank, hook, risk</text>
+  </g>
+  <g transform="translate(1085 188)">
+    <rect width="300" height="92" rx="24" fill="#9af7d4"/>
+    <text x="38" y="58" fill="#071926" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="28" font-weight="900">Runs on localhost</text>
+  </g>
+</svg>

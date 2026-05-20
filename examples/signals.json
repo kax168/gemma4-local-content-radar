@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Developers are testing local multimodal models for private document review",
+    "source": "Community discussion",
+    "evidence": "Multiple builders are comparing local models for summarizing PDFs, screenshots, and internal docs without sending data to cloud APIs.",
+    "audience": "AI builders and solo operators",
+    "risk": "Needs careful privacy framing and no unsupported benchmark claims."
+  },
+  {
+    "title": "Long-context open models are changing content research workflows",
+    "source": "Product/tool trend",
+    "evidence": "Large context windows make it practical to compare many notes, articles, and source snippets in one local pass.",
+    "audience": "Content operators, researchers, indie hackers",
+    "risk": "Could become generic if not tied to a concrete workflow."
+  },
+  {
+    "title": "AI side-hustle content is full of low-quality recycled advice",
+    "source": "Editorial observation",
+    "evidence": "Repeated playbooks around AdSense, affiliate sites, and AI content farms create an opportunity for better evidence-based filtering.",
+    "audience": "Cross-border monetization readers",
+    "risk": "Avoid income guarantees and platform-policy overclaims."
+  },
+  {
+    "title": "Local AI as a pre-publishing safety layer",
+    "source": "Workflow idea",
+    "evidence": "A local model can inspect drafts for secrets, unsafe claims, weak sourcing, and missing disclaimers before public posting.",
+    "audience": "Developers and creators who publish often",
+    "risk": "Must be framed as assistance, not perfect compliance."
+  }
+]
+
