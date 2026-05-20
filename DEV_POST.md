@@ -54,14 +54,14 @@ The implementation is intentionally small and inspectable.
 
 ```text
 .
-├── examples/
-│   ├── signals.json
-│   ├── radar-output.json
-│   └── radar-output.md
-├── scripts/
-│   └── content_radar.py
-└── assets/
-    └── hero.svg
++-- examples/
+|   +-- signals.json
+|   +-- radar-output.json
+|   +-- radar-output.md
++-- scripts/
+|   +-- content_radar.py
++-- assets/
+    +-- hero.svg
 ```
 
 The script does four things:
@@ -118,6 +118,6 @@ That makes this pattern useful beyond content marketing. The same approach could
 
 The next version would add a small browser UI, source importers, and an optional multimodal path where Gemma 4 can inspect screenshots or visual drafts before producing the editorial report.
 
-I would also add a “claim hygiene” mode that forces every generated angle to include what is known, what is inferred, and what still needs verification.
+I would also add a "claim hygiene" mode that forces every generated angle to include what is known, what is inferred, and what still needs verification.
 
 For this submission, I wanted the core to be honest and reproducible: local model in, structured decision report out.

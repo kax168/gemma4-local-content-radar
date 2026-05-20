@@ -68,15 +68,15 @@ editorial planning.
 
 ```text
 .
-├── examples/
-│   ├── signals.json
-│   ├── radar-output.json
-│   └── radar-output.md
-├── scripts/
-│   └── content_radar.py
-└── assets/
-    ├── hero.svg
-    └── hero.png
++-- examples/
+|   +-- signals.json
+|   +-- radar-output.json
+|   +-- radar-output.md
++-- scripts/
+|   +-- content_radar.py
++-- assets/
+    +-- hero.svg
+    +-- hero.png
 ```
 
 ## Notes
